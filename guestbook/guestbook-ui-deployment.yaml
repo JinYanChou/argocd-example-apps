@@ -8,12 +8,10 @@ spec:
   selector:
     matchLabels:
       app: guestbook-ui
-      test: "1234"
   template:
     metadata:
       labels:
         app: guestbook-ui
-        test: "1234"
     spec:
       initContainers: []
       containers:
