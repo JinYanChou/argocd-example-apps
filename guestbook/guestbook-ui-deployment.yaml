@@ -8,6 +8,7 @@ spec:
   selector:
     matchLabels:
       app: guestbook-ui
+      tests: 123
   template:
     metadata:
       labels:
